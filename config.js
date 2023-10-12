@@ -20,10 +20,10 @@ module.exports = {
             chains: { mainnet: 1, ropsten: 3, rinkeby: 4, goerly: 5, kovan: 42,}
         },
         polygon: {
-            chainId: 80001,
+            chainId: 137,
             network: 'mainnet',
             provider: "https://rpc-mainnet.maticvigil.com",
-            chains: { mainnet: 80001, ropsten: 3, rinkeby: 4, goerly: 5, kovan: 42,}
+            chains: { mainnet: 137, ropsten: 3, rinkeby: 4, goerly: 5, kovan: 42,}
         },
         bsc: {
             chainId: 97,
