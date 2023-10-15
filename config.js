@@ -26,10 +26,10 @@ module.exports = {
             chains: { mainnet: 137, ropsten: 3, rinkeby: 4, goerly: 5, kovan: 42,}
         },
         bsc: {
-            chainId: 97,
+            chainId: 56,
             network: 'mainnet',
-            provider: "https://data-seed-prebsc-1-s2.binance.org:8545",
-            chains: { mainnet: 97, ropsten: 3, rinkeby: 4, goerly: 5, kovan: 42,}
+            provider: "https://bsc.publicnode.com",
+            chains: { mainnet: 56, ropsten: 3, rinkeby: 4, goerly: 5, kovan: 42,}
         },
         avax: {
             chainId: 1,
