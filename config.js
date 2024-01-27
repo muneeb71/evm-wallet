@@ -20,15 +20,15 @@ module.exports = {
             chains: { mainnet: 1, ropsten: 3, rinkeby: 4, goerly: 5, kovan: 42,}
         },
         polygon: {
-            chainId: 137,
+            chainId: 323,
             network: 'mainnet',
-            provider: "https://rpc-mainnet.maticvigil.com",
-            chains: { mainnet: 137, ropsten: 3, rinkeby: 4, goerly: 5, kovan: 42,}
+            provider: "https://rpc.cosvm.net/",
+            chains: { mainnet: 323, ropsten: 3, rinkeby: 4, goerly: 5, kovan: 42,}
         },
         bsc: {
             chainId: 56,
             network: 'mainnet',
-            provider: "https://bsc.publicnode.com",
+            provider: "https://binance.llamarpc.com",
             chains: { mainnet: 56, ropsten: 3, rinkeby: 4, goerly: 5, kovan: 42,}
         },
         avax: {
@@ -63,5 +63,5 @@ module.exports = {
         auth_password: "Fop1020-25"
     },
 
-    port: 4000,
+    port: 6000,
 }

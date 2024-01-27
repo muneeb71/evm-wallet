@@ -54,8 +54,12 @@ app.use("/fantom/mainnet", ensureWebToken, fantomMainnet);
 app.use("/fantomToken/mainnet", ensureWebToken, fantomERC20Mainnet);
 
 // Polygon Mainet
-app.use("/polygon/mainnet", ensureWebToken, polygonMainnet);
+app.use("/polygon/mainnet", polygonMainnet);
 app.use("/polygonToken/mainnet", ensureWebToken, polygonERC20Mainnet);
+
+//CosVM Mainnet
+app.use("/cosvm/mainnet", polygonMainnet);
+app.use("/cosvmToken/mainnet", ensureWebToken, polygonERC20Mainnet);
 
 // BSC Mainet
 app.use("/bsc/mainnet", ensureWebToken, bscMainnet);
